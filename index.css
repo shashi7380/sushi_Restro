@@ -18,13 +18,23 @@ video{
 
 }
 
+
+
 a{
     display: inline-block;
-    padding: 12px 48px;
+    padding: 15px 18px;
     border: solid 4px rgb(255, 60, 100);
     text-decoration: none;
     font-size: 24px;
     color: rgb(255, 60, 100);
+}
+
+@media (max-width: 426px) {
+    a{
+        padding: 5px 8px;
+        font-size: 10px;
+        border-width: 2px;
+    }
 }
 
 
@@ -37,6 +47,84 @@ div{
     margin-top: 280px;
     text-align: center;
 }
+@media (min-width: 1024px) {
+    div{
+        width: 70%;
+        margin-top: 140px;
+    }
+}
+
+@media (max-width: 1025px) {
+    div{
+        width: 70%;
+        margin-top: 240px;
+    }
+}
+
+@media (min-height: 1367px) {
+    div{
+        margin-top: 600px;
+    }
+}
+
+
+@media (max-width:769px) {
+    div{
+        width: 70%;
+        margin-top: 240px;
+        
+    }
+    div h1{
+        font-size: 30px;
+    }
+    div a{
+        padding: 5px 8px;
+        border-width: 3px;
+    }
+
+}
+
+    
+    
+
+
+@media (max-width: 426px) {
+    div h1{
+        width: 75%;
+        text-align: center;
+        margin: 310px auto 0 auto;
+        font-size: 20px;
+    }
+    div p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    div h1{
+        width: 85%;
+        margin-top: 260px;
+    }
+    div p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 321px) {
+    div h1{
+        width: 100%;
+        
+    }
+    div p{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
 h1{
     margin-bottom: 25px;
     color: rgb(39, 39,39);
